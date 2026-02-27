@@ -1,0 +1,7 @@
+EDA V2 DONE
+output_dir=eda_output_v2\20260209_145551
+reports=eda_output_v2\20260209_145551\reports
+figures=eda_output_v2\20260209_145551\figures
+artifacts=eda_output_v2\20260209_145551\artifacts
+scipy=True, sklearn=True
+multiselect_cols=7

@@ -1,0 +1,6 @@
+﻿hypothesis_id,title,business_meaning,related_raw_columns
+H1,사전 학습경험이 높을수록 수료율이 높다,이전 학습 경험/재등록 이력이 있는 지원자는 완주 가능성이 높다,re_registration|previous_class_3~8|class1~3
+H2,데이터 커리어 정합성이 높을수록 수료율이 높다,전공/희망직무/자격증 목표가 데이터 직무와 맞을수록 동기 일관성이 높다,major_data|desired_job|desired_certificate|certificate_acquisition|major_field
+H3,투입 가능 시간과 참여 방식이 적극적일수록 수료율이 높다,시간 투자 가능성과 오프라인/팀 선호가 학회 활동 지속성에 영향을 준다,time_input|project_type|hope_for_group|incumbents_lecture_type
+H4,응답 구체성/성실도가 높을수록 수료율이 높다,자유서술 길이와 다중선택 응답 폭은 참여 의지/진지함의 프록시가 된다,incumbents_lecture_scale_reason|interested_company|desired_job|expected_domain|onedayclass_topic
+H5,모집채널/동기 유형별로 완주 확률이 다르다,유입 경로와 지원 동기가 세그먼트별 이탈 리스크를 만든다,inflow_route|whyBDA|what_to_gain|re_registration

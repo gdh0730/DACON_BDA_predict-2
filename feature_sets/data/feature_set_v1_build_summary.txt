@@ -1,0 +1,9 @@
+[BUILD] feature_set_v1
+train_rows=748, test_rows=814
+core_feature_count=30
+core_plus_exp_feature_count=44
+train_core_shape=(748, 32)
+test_core_shape=(814, 31)
+train_core_plus_exp_shape=(748, 46)
+test_core_plus_exp_shape=(814, 45)
+output_manifest=feature_sets\data\feature_set_v1_manifest.json

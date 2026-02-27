@@ -1,0 +1,6 @@
+﻿hypothesis_id,title,n_features,best_feature,best_oof_auc,best_effect_range,high_shift_ratio,evidence_level,note
+H1,사전 학습경험이 높을수록 수료율이 높다,4,h1_prev_class_count,0.5526243860773008,0.14019478450826012,0.0,moderate,best=h1_prev_class_count
+H2,데이터 커리어 정합성이 높을수록 수료율이 높다,5,h2_acquired_cert_cnt,0.578052530429212,0.21511627906976744,0.4,strong_with_shift_risk,best=h2_acquired_cert_cnt
+H3,투입 가능 시간과 참여 방식이 적극적일수록 수료율이 높다,7,h3_hope_offline,0.5428486013239378,0.07175295186194369,0.0,moderate,best=h3_hope_offline
+H4,응답 구체성/성실도가 높을수록 수료율이 높다,6,h4_text_len_reason,0.5258338671791587,0.08050632911392408,0.3333333333333333,weak,best=h4_text_len_reason
+H5,모집채널/동기 유형별로 완주 확률이 다르다,3,h5_inflow_organic,0.5534614563314115,0.09473859473859475,0.0,moderate,best=h5_inflow_organic

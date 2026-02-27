@@ -1,0 +1,11 @@
+TRAIN FEATURE SET V1 DONE
+run_dir=model_output_v1\20260209_175129
+modes=['core', 'core_plus_exp']
+final_mode=core
+final_variant=blend
+final_cv_f1=0.4758269720101781
+final_cv_f1_reg=0.4758269720101781
+final_cv_auc=0.5692675635276533
+final_threshold_reg=0.19
+final_threshold_f1=0.19
+final_submission=model_output_v1\20260209_175129\final_submission.csv

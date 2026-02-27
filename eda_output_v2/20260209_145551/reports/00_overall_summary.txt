@@ -1,0 +1,13 @@
+[DATA] path=open\train.csv
+[SHAPE] rows=748, cols=46
+[COLUMNS] ['ID', 'generation', 'school1', 'major type', 'major1_1', 'major1_2', 'major_data', 'job', 'class1', 'class2', 'class3', 'class4', 're_registration', 'contest_award', 'nationality', 'inflow_route', 'whyBDA', 'what_to_gain', 'hope_for_group', 'previous_class_3', 'previous_class_4', 'previous_class_5', 'previous_class_6', 'previous_class_7', 'previous_class_8', 'major_field', 'desired_career_path', 'completed_semester', 'project_type', 'time_input', 'desired_job', 'certificate_acquisition', 'desired_certificate', 'desired_job_except_data', 'incumbents_level', 'incumbents_lecture', 'incumbents_company_level', 'incumbents_lecture_type', 'incumbents_lecture_scale', 'incumbents_lecture_scale_reason', 'interested_company', 'expected_domain', 'contest_participation', 'idea_contest', 'onedayclass_topic', 'completed']
+
+[TARGET]
+completed
+0    525
+1    223
+Name: count, dtype: int64
+pos_rate(target=1)=0.298128
+
+[ID CHECK]
+ID unique=748 / rows=748 (unique_ratio=1.000000)

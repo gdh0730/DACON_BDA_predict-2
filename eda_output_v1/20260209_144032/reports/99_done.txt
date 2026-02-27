@@ -1,0 +1,6 @@
+EDA DONE
+output_dir=eda_output_v1\20260209_144032
+reports=eda_output_v1\20260209_144032\reports
+figures=eda_output_v1\20260209_144032\figures
+artifacts=eda_output_v1\20260209_144032\artifacts
+scipy=True, sklearn=True

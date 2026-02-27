@@ -1,0 +1,115 @@
+{
+  "name": "feature_set_v1",
+  "source_run": "eda_output_v3/20260209_152008",
+  "target": "completed",
+  "id_column": "ID",
+  "core_policy": {
+    "objective": "stability_first",
+    "principle": [
+      "drop constants and near-empty columns",
+      "drop columns flagged leakage_review_required in v2 decision",
+      "drop redundant high-missing previous_class raw columns and replace with hypothesis aggregate",
+      "prefer low/medium shift engineered features"
+    ]
+  },
+  "raw_features_keep_core": [
+    "school1",
+    "major type",
+    "major1_1",
+    "major1_2",
+    "major_data",
+    "job",
+    "class1",
+    "class2",
+    "re_registration",
+    "nationality",
+    "inflow_route",
+    "whyBDA",
+    "what_to_gain",
+    "hope_for_group",
+    "major_field",
+    "desired_career_path",
+    "project_type",
+    "time_input",
+    "desired_job_except_data",
+    "incumbents_level",
+    "incumbents_lecture",
+    "incumbents_company_level",
+    "incumbents_lecture_type",
+    "incumbents_lecture_scale",
+    "onedayclass_topic"
+  ],
+  "raw_features_drop_core": [
+    "ID",
+    "generation",
+    "class4",
+    "contest_award",
+    "idea_contest",
+    "contest_participation",
+    "class3",
+    "previous_class_3",
+    "previous_class_4",
+    "previous_class_5",
+    "previous_class_6",
+    "previous_class_7",
+    "previous_class_8",
+    "desired_job",
+    "desired_certificate",
+    "expected_domain",
+    "completed_semester",
+    "certificate_acquisition",
+    "incumbents_lecture_scale_reason",
+    "interested_company"
+  ],
+  "engineered_features_keep_core": [
+    "h1_experience_score",
+    "h2_acquired_cert_cnt",
+    "h2_alignment_score",
+    "h3_hope_offline",
+    "h5_inflow_organic"
+  ],
+  "engineered_features_experimental": [
+    "h1_prev_class_count",
+    "h1_previous_any",
+    "h1_reregistration_yes",
+    "h2_major_data_flag",
+    "h2_desired_job_data_cnt",
+    "h2_desired_cert_cnt",
+    "h3_engagement_score",
+    "h3_time_input",
+    "h3_time_high",
+    "h4_text_len_reason",
+    "h4_text_len_total",
+    "h4_choice_breadth",
+    "h4_response_complexity_score",
+    "h5_inflow_referral"
+  ],
+  "multiselect_parse_cols": [
+    "major_field",
+    "desired_job_except_data",
+    "onedayclass_topic",
+    "incumbents_company_level"
+  ],
+  "text_raw_cols_excluded": [
+    "incumbents_lecture_scale_reason",
+    "interested_company"
+  ],
+  "notes": {
+    "high_shift_features_to_regularize": [
+      "h2_desired_job_data_cnt",
+      "h2_desired_cert_cnt",
+      "h4_choice_breadth",
+      "h4_response_complexity_score"
+    ],
+    "v2_leakage_review_raw_cols": [
+      "certificate_acquisition",
+      "completed_semester",
+      "desired_certificate",
+      "desired_job",
+      "expected_domain",
+      "incumbents_lecture_scale_reason",
+      "interested_company",
+      "ID"
+    ]
+  }
+}

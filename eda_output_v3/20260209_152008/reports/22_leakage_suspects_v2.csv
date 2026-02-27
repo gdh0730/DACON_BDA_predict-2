@@ -1,0 +1,9 @@
+﻿column,reason
+ID,auc_cv:high_overfit_gap|oof_auc=0.503|gap=0.497
+certificate_acquisition,v1:name_keyword
+completed_semester,v1:name_keyword
+desired_certificate,v1:name_keyword
+desired_job,auc_cv:high_overfit_gap|oof_auc=0.505|gap=0.248
+expected_domain,auc_cv:high_overfit_gap|oof_auc=0.565|gap=0.169
+incumbents_lecture_scale_reason,auc_cv:high_overfit_gap|oof_auc=0.518|gap=0.480
+interested_company,auc_cv:high_overfit_gap|oof_auc=0.522|gap=0.407

@@ -1,0 +1,4 @@
+﻿group_size,missing_rate,corr_with_target,columns
+28,0.0,,ID | generation | school1 | major_data | job | class1 | re_registration | inflow_route | whyBDA | what_to_gain | hope_for_group | desired_career_path | project_type | time_input | desired_job | certificate_acquisition | desired_certificate | desired_job_except_data | incumbents_level | incumbents_lecture | incumbents_company_level | incumbents_lecture_type | incumbents_lecture_scale | incumbents_lecture_scale_reason | interested_company | expected_domain | onedayclass_topic | completed
+6,0.8048128342245989,-0.1214715148994736,previous_class_3 | previous_class_4 | previous_class_5 | previous_class_6 | previous_class_7 | previous_class_8
+2,1.0,,contest_award | idea_contest

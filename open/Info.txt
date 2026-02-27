@@ -1,0 +1,59 @@
+Dataset Info.(Updated 26.02.05)
+train.csv [파일]
+ID : 샘플별 고유 ID
+generation : BDA 기수
+school1 : 대학교
+major type : 복수전공 여부
+major1_1 : 제1전공
+major1_2 : 제2전공
+major_data : 제1전공 전공자 여부
+제 1전공에 '컴퓨터', '인공지능', 'AI', '소프트웨어', '데이터', '통계', '산업경영', '산업' 이 포함되면 True
+job : 현재 직무
+class1~4 : 수강 분반
+re_registration : 학기당 새로운 학회원을 모집할 때 재등록 여부
+contest_award : 공모전 수상 경력
+nationality : 내/외국인 여부
+inflow_route : 유입 경로
+whyBDA : BDA를 선택한 이유
+what_to_gain : BDA에서 얻고싶은 것
+hope_for_group : 조별활동 희망 여부
+previous_class_3~9 : 각 기수를 수강했을 시 분반
+major_field : 전공 분야
+desired_career_path : 희망 진로
+completed_semester : 대학교 이수학기
+project_type : 팀/개인 중 프로젝트에 참여하고 싶은 형태
+time_input : 하루에 BDA에 투입 가능한 시간
+desired_job : 희망 직무
+certificate_acquisition : 취득한 자격증
+desired_certificate : 취득을 희망하는 자격증
+desired_job_except_data : 데이터 외 희망 직무
+incumbents_level : 어느 정도 연차의 현직자를 원하는지
+incumbents_lecture : 어떤 주제의 현직자 강의를 원하는지
+incumbents_company_level : 강연 현직자가 어느정도 규모의 회사를 다니는 사람이었으면 좋겠는지
+incumbents_lecture_type : 온, 오프라인 중 원하는 현직자 강연 형태
+incumbents_lecture_scale : 원하는 현직자 강의 규모
+incumbents_lecture_scale_reason : 현직자 강의 규모 선택 이유
+interested_company : 관심있는 기업명
+expected_domain : 희망하는 도메인
+contest_participation : 데이터 관련 대회 경험
+idea_contest : 아이디어 공모전에 대한 경험
+onedayclass_topic : 원데이 클래스 주제
+completed : (TARGET) 수료 여부(0 - 미수료 , 1 - 수료)
+						※ 본 대회는 기존 1회 대회와 달리, 중도 탈퇴를 예측하는 것이 아니라 학습 과정을 끝까지 완료하여 ‘수료’에 도달한 학습자를 예측하는 것을 목표로 합니다.
+
+
+test.csv [파일]
+ID : 샘플별 고유 ID
+completed 칼럼 존재하지 않음.
+그 외 train.csv 파일과 구성 동일
+
+
+sample_submission.csv [파일] - 제출 양식
+ID : 샘플별 고유 ID
+completed : (TARGET) 수료 여부(0, 1)
+
+
+리더보드
+평가 산식 : Binary F1 Score
+Public Score : 전체 테스트 데이터 중 샘플링된 50%
+Private Score : 전체 테스트 데이터 100%

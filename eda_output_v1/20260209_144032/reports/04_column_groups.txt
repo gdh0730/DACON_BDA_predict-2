@@ -1,0 +1,7 @@
+numeric_cols(7): ['school1', 'major_data', 'class1', 'class2', 'class3', 'completed_semester', 'time_input']
+cat_low_cols(24): ['major type', 'major1_1', 'major1_2', 'job', 're_registration', 'nationality', 'inflow_route', 'whyBDA', 'what_to_gain', 'hope_for_group', 'previous_class_3', 'previous_class_4', 'previous_class_5', 'previous_class_6', 'previous_class_7', 'previous_class_8', 'desired_career_path', 'project_type', 'incumbents_level', 'incumbents_lecture', 'incumbents_company_level', 'incumbents_lecture_type', 'incumbents_lecture_scale', 'contest_participation']
+cat_high_cols(7): ['major_field', 'desired_job', 'certificate_acquisition', 'desired_certificate', 'desired_job_except_data', 'expected_domain', 'onedayclass_topic']
+text_cols(2): ['incumbents_lecture_scale_reason', 'interested_company']
+datetime_like_cols(0): []
+id_like_cols(1): ['ID']
+constant_cols(4): ['generation', 'class4', 'contest_award', 'idea_contest']

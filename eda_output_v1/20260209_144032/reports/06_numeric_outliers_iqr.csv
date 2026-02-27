@@ -1,0 +1,8 @@
+﻿column,iqr_low,iqr_high,outlier_count,outlier_rate
+time_input,0.5,4.5,37,0.04946524064171123
+school1,-24.5,75.5,31,0.04144385026737968
+completed_semester,0.5,12.5,4,0.005555555555555556
+class1,-5.5,14.5,0,0.0
+major_data,-1.5,2.5,0,0.0
+class3,-3.0,21.0,0,0.0
+class2,-2.0,14.0,0,0.0

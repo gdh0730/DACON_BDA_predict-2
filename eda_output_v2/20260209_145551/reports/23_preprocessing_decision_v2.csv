@@ -1,0 +1,46 @@
+﻿column,type,missing_rate,nunique,is_multiselect_like,missing_pattern_group_id,single_feature_oof_auc,single_feature_auc_gap,single_feature_auc_suspect,single_feature_auc_suspect_reason,recommendation_v2,drop_reason_v2
+contest_participation,categorical_low,0.9919786096256684,6,0,,0.5000768737988468,0.00946828955797574,0,,DROP_OR_MISSING_FLAG_ONLY,very_high_missing
+class3,numeric_discrete,0.9812834224598931,5,0,,,,0,,DROP_OR_MISSING_FLAG_ONLY,very_high_missing
+contest_award,constant,1.0,0,0,3,,,0,,DROP,missing_~100%
+idea_contest,constant,1.0,0,0,3,,,0,,DROP,missing_~100%
+certificate_acquisition,categorical_high,0.0,27,0,1,0.5746957078795643,0.04762758915225296,0,,REVIEW_LEAKAGE_BEFORE_MODELING,leakage_review_required
+expected_domain,categorical_high,0.0,170,1,1,0.5646935724962631,0.16878923766816145,1,high_overfit_gap,REVIEW_LEAKAGE_BEFORE_MODELING,leakage_review_required
+desired_certificate,categorical_high,0.0,91,1,1,0.5372581678411276,0.14348921631432843,0,,REVIEW_LEAKAGE_BEFORE_MODELING,leakage_review_required
+completed_semester,numeric_discrete,0.0374331550802139,13,0,,0.5336152039291053,0.0,0,,REVIEW_LEAKAGE_BEFORE_MODELING,leakage_review_required
+interested_company,text,0.0,438,0,1,0.5218065342729019,0.40726457399103166,1,high_overfit_gap,REVIEW_LEAKAGE_BEFORE_MODELING,leakage_review_required
+incumbents_lecture_scale_reason,text,0.0,691,0,1,0.5178603459320947,0.4802477044629512,1,high_overfit_gap,REVIEW_LEAKAGE_BEFORE_MODELING,leakage_review_required
+desired_job,categorical_high,0.0,174,1,1,0.5050138799914585,0.2478283151825752,1,high_overfit_gap,REVIEW_LEAKAGE_BEFORE_MODELING,leakage_review_required
+ID,id_like,0.0,748,0,1,0.5026905829596413,0.4973094170403587,1,high_overfit_gap,EXCLUDE_FROM_FEATURES,id_like
+class4,constant,0.9986631016042781,1,0,,0.5026905829596413,-0.001738202007260381,0,,DROP,constant
+generation,constant,0.0,1,0,1,,,0,,DROP,constant
+what_to_gain,categorical_low,0.0,9,0,1,0.5764253683536196,-0.06299807815502889,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+major_data,numeric_discrete,0.0,2,0,1,0.5430877642536835,0.0,0,,NUMERIC(impute + clip + optional binning),
+incumbents_company_level,categorical_low,0.0,17,1,1,0.5414349775784753,-0.007033952594490689,0,,MULTISELECT(split tokens -> multi-hot/target-encode),
+incumbents_level,categorical_low,0.0,2,0,1,0.5379841981635705,-0.034764040145206176,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+previous_class_7,categorical_low,0.8048128342245989,12,0,2,0.5320478325859492,0.03721973094170383,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+class1,numeric_discrete,0.0,10,0,1,0.5305658765748451,0.0,0,,NUMERIC(impute + clip + optional binning),
+incumbents_lecture_scale,categorical_low,0.0,6,0,1,0.5296775571215033,-0.0126927183429425,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+previous_class_3,categorical_low,0.8048128342245989,3,0,2,0.5286312193038649,0.027290198590647075,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+inflow_route,categorical_low,0.0,8,0,1,0.52842622250694,0.04156737134315602,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+re_registration,categorical_low,0.0,2,0,1,0.5283877856075165,0.024236600469784264,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+previous_class_4,categorical_low,0.8048128342245989,4,0,2,0.5281358103779628,0.026863121930386535,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+major1_2,categorical_low,0.5868983957219251,10,0,,0.5268802049967969,0.0590518898142216,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+whyBDA,categorical_low,0.0,7,0,1,0.5263933376040999,0.05899636984838785,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+previous_class_5,categorical_low,0.8048128342245989,5,0,2,0.5243732650010676,0.030706811872731166,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+school1,numeric_continuous,0.0,92,0,1,0.5227503736920777,0.0,0,,NUMERIC(impute + clip + optional binning),
+major1_1,categorical_low,0.026737967914438502,11,0,,0.5198590647021141,0.055144138372837936,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+incumbents_lecture_type,categorical_low,0.0,3,0,1,0.51939355114243,0.019893230834934994,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+desired_job_except_data,categorical_high,0.0,99,1,1,0.518616271620756,0.16062780269058285,0,,MULTISELECT(split tokens -> multi-hot/target-encode),
+previous_class_6,categorical_low,0.8048128342245989,10,0,2,0.5163912022207986,0.045235959854793895,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+previous_class_8,categorical_low,0.8048128342245989,16,0,2,0.5155840273329062,0.051842835789024155,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+major_field,categorical_high,0.03074866310160428,43,1,,0.5145590433482811,0.11751868460388648,0,,MULTISELECT(split tokens -> multi-hot/target-encode),
+incumbents_lecture,categorical_low,0.0,10,0,1,0.514191757420457,0.024518471065556158,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+class2,numeric_discrete,0.7740641711229946,9,0,,0.5115054452274183,0.0,0,,NUMERIC(impute + clip + optional binning),
+hope_for_group,categorical_low,0.0,3,0,1,0.510113175314969,0.03544736280162297,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+project_type,categorical_low,0.0,2,0,1,0.508631219303865,-0.005073670723894863,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+job,categorical_low,0.0,4,0,1,0.5071834294255819,0.008579970104633738,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+nationality,categorical_low,0.001336898395721925,2,0,,0.5039120222079864,-0.0016741405082212335,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+onedayclass_topic,categorical_high,0.0,41,1,1,0.5032628656843904,0.12830237027546454,0,,MULTISELECT(split tokens -> multi-hot/target-encode),
+time_input,numeric_discrete,0.0,14,0,1,0.5030578688874654,0.0,0,,NUMERIC(impute + clip + optional binning),
+major type,categorical_low,0.029411764705882353,3,0,,0.5023660046978433,0.042126841768097334,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),
+desired_career_path,categorical_low,0.0,4,0,1,0.5005423873585308,0.023642963912022363,0,,CATEGORICAL_LOW(onehot + rare merge + missing_as_category),

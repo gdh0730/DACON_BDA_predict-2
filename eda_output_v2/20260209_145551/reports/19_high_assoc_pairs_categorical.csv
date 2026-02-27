@@ -1,0 +1,10 @@
+﻿col_a,col_b,cramers_v,n_a,n_b
+re_registration,previous_class_3,0.9986586177731342,2,3
+re_registration,previous_class_4,0.9979872505592546,2,4
+re_registration,previous_class_5,0.9973154313982582,2,5
+re_registration,whyBDA,0.9966431593761967,2,7
+re_registration,previous_class_6,0.9939495242900724,2,10
+re_registration,previous_class_7,0.9925999655898684,2,12
+re_registration,previous_class_8,0.9898953285040302,2,16
+re_registration,inflow_route,0.9791724522400798,2,8
+previous_class_3,previous_class_6,0.9066921273504492,3,10

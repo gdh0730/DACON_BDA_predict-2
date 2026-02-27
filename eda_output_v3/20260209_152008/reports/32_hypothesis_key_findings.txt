@@ -1,0 +1,4 @@
+[GOAL] completed(수료여부) 예측 성능에 직접 기여할 가설 우선 검증
+[TOP_FEATURES] ['h2_acquired_cert_cnt', 'h1_prev_class_count', 'h1_previous_any', 'h1_reregistration_yes', 'h1_experience_score', 'h5_inflow_organic', 'h2_alignment_score', 'h2_major_data_flag', 'h3_hope_offline', 'h5_inflow_referral']
+[HYPOTHESIS_EVIDENCE] ['H2', 'H5', 'H1', 'H3', 'H4']
+[NOTE] shift_level=high 인 피처는 강한 정규화/인코딩 안전장치 없이 직접 사용 금지
